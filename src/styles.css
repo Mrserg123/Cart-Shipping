@@ -19,6 +19,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
 }
 
 .listyle {
@@ -28,7 +30,8 @@ body {
   padding-bottom: 20px;
   border-radius: 20px;
   list-style: none;
-  margin-bottom: 20px;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 .q {
@@ -49,18 +52,17 @@ body {
 }
 .App {
   font-family: sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  text-align: right;
   background-color: #a9e2f3;
+  width: 350px;
 }
 .input {
-  margin-bottom: 20px;
+  padding-top: 20px;
+  margin-right: 50px;
 }
 .button {
-  margin-top: 40px;
-  margin-left: 200px;
+  text-align: center;
+  padding-top: 20px;
 }
 .active {
   margin: 0 auto;
@@ -70,4 +72,21 @@ body {
   background: #fc0; /* Цвет фона */
   border: 2px solid #fff; /* Белая рамка */
   border-radius: 10px; /* Радиус скругления */
+}
+.content_li {
+  text-align: center;
+  list-style: none;
+  font-size: 40px;
+  background-color: #fff;
+  margin-bottom: 30px;
+  border: 2px solid #fff; /* Белая рамка */
+  border-radius: 30px;
+  width: 200px;
+  height: 50px;
+}
+
+select {
+  margin-top: 20px;
+  margin-right: 50px;
+  width: 150px;
 }

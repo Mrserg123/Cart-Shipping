@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+
 export default function Shipping() {
   return (
     <div className="App">
@@ -21,7 +22,7 @@ export default function Shipping() {
       </div>
       <div>
         Shiping-option:
-        <select>
+        <select className="inputi">
           <option selected value="Free shipping">
             Free shipping
           </option>

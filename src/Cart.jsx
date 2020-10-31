@@ -17,9 +17,18 @@ export function Cart({ cart, onDelete }) {
           <img
             src={cart.avatar}
             alt="product"
-            style={{ float: "left", margin: "0 10px 0 10px" }}
+            style={{
+              float: "left",
+              margin: "0 10px 0 50px"
+            }}
           />
-          <p style={{ marginLeft: "10px", width: "300px" }}>
+          <p
+            style={{
+              marginLeft: "10px",
+              width: "300px",
+              textAlign: "left"
+            }}
+          >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
             voluptate mollitia accusamus, consectetur qui sint vitae. Ad veniam
             laboriosam sunt?
