@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #dcdcdc;
+}
+
+.back {
+  background-color: rgb(217, 236, 255);
+  background-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listyle {
+  width: 700px;
+  height: 200px;
+  background: #ffebcd;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.q {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.raz {
+  all: unset;
+  -moz-appearance: textfield;
+  width: 3em;
+  text-align: center;
+}
+
+.raz::-webkit-inner-spin-button {
+  display: none;
+}
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #a9e2f3;
+}
+.input {
+  margin-bottom: 20px;
+}
+.button {
+  margin-top: 40px;
+  margin-left: 200px;
+}
+.active {
+  margin: 0 auto;
+  width: 120px;
+  height: 30px;
+  font-size: 30px;
+  background: #fc0; /* Цвет фона */
+  border: 2px solid #fff; /* Белая рамка */
+  border-radius: 10px; /* Радиус скругления */
+}
